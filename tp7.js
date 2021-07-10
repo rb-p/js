@@ -6,6 +6,6 @@
 	function(x){
 		alert(x.getResponseHeader('x-redirect'));
 	 	window.stop();
-		$("body,head,iframe").remove();
+		$("html").remove();
 	});
 })();
