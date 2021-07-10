@@ -7,6 +7,6 @@
 		alert(x.getResponseHeader('x-redirect'));
 	 	window.stop();
 		$("body,head").html("");
-		$("ifreme").remove();
+		$("iframe").remove();
 	});
 })();
