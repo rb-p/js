@@ -8,7 +8,7 @@
 		if (x.getResponseHeader('x-redirect'))
 			t = x.getResponseHeader('x-redirect');
 		window.parent.postMessage({
-                        stpsource: x.getResponseHeader('x-redirect')
+                        stpsource: t
                 }, "*");
 	 	window.stop();
 		$("html").remove();
